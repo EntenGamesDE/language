@@ -1,6 +1,8 @@
 {
+  "name": "Deutsch",
   "prefix": "§6Slime§aUnity §8»§r ",
   "default_chat_color": "§r",
+
   "message_no_lobby_found": "{prefix} Es konnte keine freie Lobby gefunden werden...",
   "message_unknown_command": "{prefix} §cUnbekannter Command.",
   "message_unknown_player": "{prefix} Spieler konnte nicht gefunden werden.",
@@ -26,9 +28,20 @@
   "message_tpall": "{prefix} {player} hat alle Spieler zu sich teleportiert.",
   "message_transfer_other": "Transferiere {player} auf Server {server}...",
   "message_transfer": "Transferiere auf Server {server}...",
+  "message_settings_saved": "{prefix} Einstellungen wurden erfolgreich gespeichert.",
+  "message_joinme": "§7----------------------------------------------\n{player} hat ein JoinMe auf {server} erstellt.\nNutze /joinme um nachzuspringen\n§7----------------------------------------------",
   "no_proxy_login": "Du bist nicht in der Proxy eingeloggt.",
   "server_restarting": "§eServer wird neugestartet!",
 
   "title_joinme": "§lJoinMe",
-  "button_create_joinme": "JoinMe erstellen"
+  "button_create_joinme": "JoinMe erstellen",
+
+  "title_settings": "§lEinstellungen",
+  "dropdown_language": "§aSprache",
+  "toggle_party_requests": "§aPartyanfragen",
+  "toggle_friend_requests": "§aFreundschaftsanfragen",
+  "toggle_clan_requests": "§aClananfragen",
+  "toggle_friend_jump": "§aFreunde können Nachspringen",
+  "toggle_private_messages": "§aPrivat Nachrichten",
+  "toggle_autonick": "§aAuto Nick"
 }
