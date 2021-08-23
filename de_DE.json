@@ -141,5 +141,7 @@
   "input_description": "§aBeschreibung",
   "button_find_clan": "§aClan finden",
   "button_create_clan": "§aClan erstellen",
-  "button_clan_invites": "§aEinladungen §7[§8{invites}§7]"
+  "button_clan_invites": "§aEinladungen §7[§8{invites}§7]",
+
+  "title_lobbyswitcher": "§lLobby Switcher"
 }
