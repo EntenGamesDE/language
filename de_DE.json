@@ -6,6 +6,8 @@
   "default_chat_color": "§r",
 
   "message_no_lobby_found": "{prefix} Es konnte keine freie Lobby gefunden werden...",
+  "message_no_server_found": "{prefix} Es konnte kein freier Server gefunden werden...",
+  "message_finding_server": "{prefix} Suche nach freien Server...",
   "message_unknown_command": "{prefix} §cUnbekannter Command.",
   "message_unknown_player": "{prefix} Spieler konnte nicht gefunden werden.",
   "message_player_is_offline": "{prefix} {player} ist nicht online.",
@@ -68,14 +70,32 @@
   "message_clan_deleted": "{prefix_clans} Du hast deinen Clan gelöscht.",
   "message_player_left_clan": "{prefix_clans} {player} hat den Clan verlassen.",
   "message_clan_left": "{prefix_clans} Du hast den Clan verlassen.",
+  "message_nick_on": "{prefix} Du hast dich erfolgreich genickt.",
+  "message_nick_off": "{prefix} Du hast dich erfolgreich entnickt.",
+  "message_nicks_disabled": "{prefix} Du kannst dich hier nicht nicken.",
+  "message_chat_cooldown": "{prefix} Bitte warte einen Moment mit deiner Nachricht.",
+  "message_player_already_muted": "{prefix} {player} ist bereits gemuted.",
+  "message_cannot_mute_player": "{prefix} Du kannst diesen Spieler nicht muten.",
+  "message_unknown_mute_id": "{prefix} Du hast eine unbekannte Mute Id angegeben.",
+  "message_player_muted": "{prefix} Du hast {player} für {reason} gemuted.",
+  "message_player_unmuted": "{prefix} Du hast {player} erfolgreich entmuted.",
+  "message_player_not_muted": "{prefix} {player} ist aktuell nicht gemuted.",
+  "message_player_already_banned": "{prefix} {player} ist bereits gebannt.",
+  "message_cannot_ban_player": "{prefix} Du kannst diesen Spieler nicht bannen.",
+  "message_unknown_ban_id": "{prefix} Du hast eine unbekannte Ban Id angegeben.",
+  "message_player_banned": "{prefix} Du hast {player} für {reason} gebannt.",
+  "message_player_unbanned": "{prefix} Du hast {player} erfolgreich entbannt.",
+  "message_player_not_banned": "{prefix} {player} ist aktuell nicht gebannt.",
 
 
   "no_proxy_login": "Du bist nicht in der Proxy eingeloggt.",
   "server_restarting": "§eServer wird neugestartet!",
+  "banned_from_server": "§cDu bist gebannt!\n§cGrund§8:§c {reason} §8| §cBis§8:§c {until}",
 
   "input_playername": "§aSpielername",
   "button_back": "§aZurück",
   "button_remove": "§cEntfernen",
+  "button_delete": "§cLöschen",
   "button_settings": "§aEinstellungen",
   "button_accept": "§aAnnehmen",
   "button_decline": "§cAblehnen",
@@ -99,7 +119,7 @@
   "title_friends": "§lFreunde",
   "button_jumpto": "§aNachspringen",
   "button_add_friend": "§aFreund hinzufügen",
-  "button_friends": "§aFreunde §8[§7{friends}§8]",
+  "button_friend_list": "§aFreunde §8[§7{friends}§8]",
   "button_friendrequests": "§aFreundschaftsanfragen §8[§7{requests}§8]",
   "button_accept_all": "§aAlle annehmen",
   "button_decline_all": "§aAlle ablehnen",
@@ -112,6 +132,12 @@
   "button_manage_rank": "§aRang bearbeiten",
   "dropdown_rank": "§aRang",
   "input_days": "§aTage (-1 = Lifetime)",
+  "button_permissions": "§aBerechtigungen",
+  "input_add_permission": "§aBerechtigung hinzufügen",
+  "input_rank_level": "§aLevel",
+  "input_rank_name": "§aName",
+  "input_rank_color": "§aFarbe",
+  "input_rank_tag": "§aTag",
 
   "title_clans": "§lClans",
   "input_clan_name": "§aName (Max. 16 Zeichen)",
@@ -143,5 +169,26 @@
   "button_create_clan": "§aClan erstellen",
   "button_clan_invites": "§aEinladungen §7[§8{invites}§7]",
 
-  "title_lobbyswitcher": "§lLobby Switcher"
+  "title_lobbyswitcher": "§lLobby Switcher",
+
+  "title_profile": "§lProfil",
+  "button_friends": "§aFreunde",
+  "button_clan": "§aClan",
+
+  "title_teleporter": "§lTeleporter",
+
+  "title_mute": "§lMute",
+  "button_mute": "{reason}\n{days} Tage",
+
+  "title_ban": "§lBan",
+  "button_ban": "{reason}\n{days} Tage",
+
+  "scoreboard_lobby_title": "§l§6Slime§aUnity",
+
+  "item_lobbyswitcher": "§r§aLobby Switcher\n§o§8[§7Click§8]",
+  "item_playerhider_all": "§r§aSpieler Anzeigen§7: §aAlle\n§o§8[§7Click§8]",
+  "item_playerhider_small": "§r§aSpieler Anzeigen§7: §6Klein\n§o§8[§7Click§8]",
+  "item_playerhider_nobody": "§r§aSpieler Anzeigen§7: §7Niemand\n§o§8[§7Click§8]",
+  "item_profile": "§r§aProfil\n§o§8[§7Click§8]",
+  "item_teleporter": "§r§aTeleporter\n§o§8[§7Click§8]"
 }
