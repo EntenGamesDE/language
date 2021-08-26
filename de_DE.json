@@ -3,6 +3,7 @@
   "prefix": "§6Slime§aUnity §8» §r",
   "prefix_friends": "§6§lFreunde §r§8» §r",
   "prefix_clans": "§6§lClans §8» §r",
+  "prefix_reports": "§6§lReportSystem§r§8 » §r",
   "default_chat_color": "§r",
 
   "message_no_lobby_found": "{prefix} Es konnte keine freie Lobby gefunden werden...",
@@ -86,11 +87,19 @@
   "message_player_banned": "{prefix} Du hast {player} für {reason} gebannt.",
   "message_player_unbanned": "{prefix} Du hast {player} erfolgreich entbannt.",
   "message_player_not_banned": "{prefix} {player} ist aktuell nicht gebannt.",
+  "message_teleport_to_player": "{prefix} Du hast dich zu {player} teleportiert.",
+  "message_report_got_accepted": "{prefix_reports} Dein Spieler Report wurde von {player} angenommen.",
+  "message_report_got_declined": "{prefix_reports} Dein Spieler Report wurde von {player} abgelehnt.",
+  "message_reports_accepted": "{prefix_reports} Du hast den Report von {player} und {reports} andere(n) Reports angenommen.",
+  "message_reports_declined": "{prefix_reports} Du hast den Report von {player} und {reports} andere(n) Reports abgelehnt.",
+  "message_player_reported": "{prefix_reports} Du hast {player} gemeldet.",
+  "message_daily_reward_already_claimed": "{prefix} Du hast bereits deine tägliche Belohnung eingesammelt.",
+  "message_daily_reward_claimed": "{prefix} Du hast deine tägliche Belohnung eingesammelt. Streak: {streak}",
 
 
   "no_proxy_login": "Du bist nicht in der Proxy eingeloggt.",
   "server_restarting": "§eServer wird neugestartet!",
-  "banned_from_server": "§cDu bist gebannt!\n§cGrund§8:§c {reason} §8| §cBis§8:§c {until}",
+  "banned_from_server": "§cDu bist gebannt!\n§cGrund§8:§c {reason}\n§cBis§8:§c {until}",
 
   "input_playername": "§aSpielername",
   "button_back": "§aZurück",
@@ -103,6 +112,8 @@
   "button_no": "§aNein",
   "button_cancel": "§cAbbrechen",
   "button_leave": "§cVerlassen",
+  "button_jumpto": "§aNachspringen",
+  "dropdown_player": "§aSpieler",
 
   "title_joinme": "§lJoinMe",
   "button_create_joinme": "JoinMe erstellen",
@@ -117,7 +128,6 @@
   "toggle_autonick": "§aAuto Nick",
 
   "title_friends": "§lFreunde",
-  "button_jumpto": "§aNachspringen",
   "button_add_friend": "§aFreund hinzufügen",
   "button_friend_list": "§aFreunde §8[§7{friends}§8]",
   "button_friendrequests": "§aFreundschaftsanfragen §8[§7{requests}§8]",
@@ -183,6 +193,13 @@
   "title_ban": "§lBan",
   "button_ban": "{reason}\n{days} Tage",
 
+  "title_report": "§lReport",
+  "content_report_info": "§aSpieler§7:§a {player}\n§aGrund§7:§a {reason}\n§aServer§7: §a{server}\n§aReporter§7: §a{reporter}\n§aNotiz§7: §a{note}\n§aBan Id§7: §a{banId}",
+  "dropdown_reason": "§aGrund",
+  "input_note": "§aNotiz",
+
+  "title_cosmetics": "§lCosmetics",
+
   "scoreboard_lobby_title": "§l§6Slime§aUnity",
 
   "item_lobbyswitcher": "§r§aLobby Switcher\n§o§8[§7Click§8]",
@@ -190,5 +207,14 @@
   "item_playerhider_small": "§r§aSpieler Anzeigen§7: §6Klein\n§o§8[§7Click§8]",
   "item_playerhider_nobody": "§r§aSpieler Anzeigen§7: §7Niemand\n§o§8[§7Click§8]",
   "item_profile": "§r§aProfil\n§o§8[§7Click§8]",
-  "item_teleporter": "§r§aTeleporter\n§o§8[§7Click§8]"
+  "item_teleporter": "§r§aTeleporter\n§o§8[§7Click§8]",
+  "item_cosmetics": "§r§aCosmetics\n§o§8[§7Click§8]",
+
+  "cosmetic_category_pets": "§aHaustiere",
+  "cosmetic_category_boots": "§aSchuhe",
+
+  "cosmetic_hover_boots": "§6Hover Boots",
+  "cosmetic_rainbow_boots": "§6Rainbow Boots",
+  "cosmetic_slime_pet": "§6Schleim",
+  "cosmetic_pig_pet": "§aSchwein"
 }
