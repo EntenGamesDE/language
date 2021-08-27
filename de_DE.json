@@ -216,5 +216,20 @@
   "cosmetic_hover_boots": "§6Hover Boots",
   "cosmetic_rainbow_boots": "§6Rainbow Boots",
   "cosmetic_slime_pet": "§6Schleim",
-  "cosmetic_pig_pet": "§aSchwein"
+  "cosmetic_pig_pet": "§aSchwein",
+  "cosmetic_turtle_pet": "§aSchildkröte",
+  "cosmetic_goat_pet": "§aZiege",
+  "cosmetic_minime_pet": "§aMiniMe",
+  "cosmetic_fox_pet": "§aFuchs",
+  "cosmetic_panda_pet": "§aPanda",
+  "cosmetic_wolf_pet": "§aWolf",
+  "cosmetic_creeper_pet": "§aCreeper",
+  "cosmetic_axolotl_pet": "§aAxolotl",
+  "cosmetic_cat_pet": "§aKatze",
+  "cosmetic_llama_pet": "§aLama",
+  "cosmetic_rabbit_pet": "§aHase",
+  "cosmetic_donkey_pet": "§aEsel",
+  "cosmetic_ghast_pet": "§aGhast",
+  "cosmetic_blaze_pet": "§aLohe",
+  "cosmetic_parrot_pet": "§aPapagei"
 }
