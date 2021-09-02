@@ -1,6 +1,6 @@
 {
   "name": "Deutsch",
-  "prefix": "§6Slime§aUnity §8» §r",
+  "prefix": "§2§lSlime§aUnity §8» §r",
   "prefix_friends": "§6§lFreunde §r§8» §r",
   "prefix_clans": "§6§lClans §8» §r",
   "prefix_reports": "§6§lReportSystem§r§8 » §r",
@@ -96,6 +96,8 @@
   "message_daily_reward_already_claimed": "{prefix} Du hast bereits deine tägliche Belohnung eingesammelt.",
   "message_daily_reward_claimed": "{prefix} Du hast deine tägliche Belohnung eingesammelt. Streak: {streak}",
 
+  "tip_sending_to_hub": "§aSuche nach freier Lobby...",
+  "tip_teleporting_players": "§aTeleportiere Spieler...",
 
   "no_proxy_login": "Du bist nicht in der Proxy eingeloggt.",
   "server_restarting": "§eServer wird neugestartet!",
@@ -210,11 +212,15 @@
   "item_teleporter": "§r§aTeleporter\n§o§8[§7Click§8]",
   "item_cosmetics": "§r§aCosmetics\n§o§8[§7Click§8]",
 
+  "item_redeem_blocks": "§6Klicke zum einlösen",
+
   "cosmetic_category_pets": "§aHaustiere",
   "cosmetic_category_boots": "§aSchuhe",
+  "cosmetic_category_particles": "§aPartikel",
 
   "cosmetic_hover_boots": "§6Hover Boots",
   "cosmetic_rainbow_boots": "§6Rainbow Boots",
+
   "cosmetic_slime_pet": "§6Schleim",
   "cosmetic_pig_pet": "§aSchwein",
   "cosmetic_turtle_pet": "§aSchildkröte",
@@ -231,5 +237,21 @@
   "cosmetic_donkey_pet": "§aEsel",
   "cosmetic_ghast_pet": "§aGhast",
   "cosmetic_blaze_pet": "§aLohe",
-  "cosmetic_parrot_pet": "§aPapagei"
+  "cosmetic_parrot_pet": "§aPapagei",
+  "cosmetic_mooshroom_pet": "§aPilzkuh",
+
+  "cosmetic_flame_particle": "§aFlammen",
+  "cosmetic_heart_particle": "§aHerzen",
+  "cosmetic_angry_villager_particle": "§aBöser Villager",
+  "cosmetic_happy_villager_particle": "§aGlücklicher Villager",
+  "cosmetic_totem_particle": "§aTotem",
+  "cosmetic_dragon_breath_particle": "§aDrachen Atem",
+  "cosmetic_colored_flame_particle": "§aGefärbte Flamme",
+
+  "minigame_traffic_light_race": "Ampelrennen",
+
+  "traffic_light_race_phase_no_light": "§l§aGO!",
+  "traffic_light_race_phase_green": "§l§0⬛\n§l§0⬛\n§l§a⬛",
+  "traffic_light_race_phase_yellow": "§l§0⬛\n§l§6⬛\n§l§0⬛\rVorsicht!",
+  "traffic_light_race_phase_red": "§l§c⬛\n§l§0⬛\n§l§0⬛\rStop!"
 }
