@@ -4,6 +4,7 @@
   "prefix_friends": "§6§lFreunde §r§8» §r",
   "prefix_clans": "§6§lClans §8» §r",
   "prefix_reports": "§6§lReportSystem§r§8 » §r",
+  "prefix_slimeparty": "§6§lSlimeParty§r§8 » §r",
   "default_chat_color": "§r",
 
   "message_no_lobby_found": "{prefix} Es konnte keine freie Lobby gefunden werden...",
@@ -95,9 +96,41 @@
   "message_player_reported": "{prefix_reports} Du hast {player} gemeldet.",
   "message_daily_reward_already_claimed": "{prefix} Du hast bereits deine tägliche Belohnung eingesammelt.",
   "message_daily_reward_claimed": "{prefix} Du hast deine tägliche Belohnung eingesammelt. Streak: {streak}",
+  "message_minigame_forced": "{prefix_slimeparty} Du hast {minigame} als nächstes Minispiel festgelegt.",
+
+  "death_message_cause_contact": "{prefix} {player} wurde zu Tode gepiekst.",
+  "death_message_cause_contact_influenced_by_player": "{prefix} {player} wurde durch {killer} zu Tode gepiekst.",
+  "death_message_cause_entity_attack": "{prefix} {player} wurde von {killer} getötet.",
+  "death_message_cause_projectile": "{prefix} {player} wurde erschossen.",
+  "death_message_cause_projectile_influenced_by_player": "{prefix} {player} wurde von {killer} erschossen.",
+  "death_message_cause_suffocation": "{prefix} {player} erstickte.",
+  "death_message_cause_suffocation_influenced_by_player": "{prefix} {player} wurde von {killer} erstickt.",
+  "death_message_cause_fall": "{prefix} {player} fiel aus zu großer Höhe.",
+  "death_message_cause_fall_influenced_by_player": "{prefix} {player} wurde aus zu großer Höhe von {killer} geworfen.",
+  "death_message_cause_fire": "{prefix} {player} verbrannte.",
+  "death_message_cause_fire_influenced_by_player": "{prefix} {player} wurde von {killer} verbrannt.",
+  "death_message_cause_lava": "{prefix} {player} verbrannte in Lava.",
+  "death_message_cause_lava_influenced_by_player": "{prefix} {player} wurde von {killer} in Lava geworfen.",
+  "death_message_cause_drowning": "{prefix} {player} ertrank.",
+  "death_message_cause_drowning_influenced_by_player": "{prefix} {player} wurde von {killer} zum ertrinken gebracht.",
+  "death_message_cause_explosion": "{prefix} {player} ging in die Luft auf.",
+  "death_message_cause_explosion_influenced_by_player": "{prefix} {player} wurde von {killer} hochgejagt",
+  "death_message_cause_void": "{prefix} {player} fiel in das leere.",
+  "death_message_cause_void_influenced_by_player": "{prefix} {player} wurde von {killer} in das leere geworfen.",
+  "death_message_cause_suicide": "{prefix} {player} wollte nicht mehr leben.",
+  "death_message_cause_magic": "{prefix} {player} wurde von Magie getötet.",
+  "death_message_cause_magic_influenced_by_player": "{prefix} {player} wurde von der Magie von {killer} getötet.",
+  "death_message_cause_custom": "{prefix} {player} starb aus unerklärlichen Gründen.",
+  "death_message_cause_custom_influenced_by_player": "{prefix} {player} starb aus unerklärlichen Gründen durch {killer}.",
+  "death_message_cause_starvation": "{prefix} {player} verhungerte.",
+  "death_message_cause_starvation_influenced_by_player": "{prefix} {player} verhungerte durch {killer}.",
+  "death_message_default": "{prefix} {player} starb.",
+
 
   "tip_sending_to_hub": "§aSuche nach freier Lobby...",
   "tip_teleporting_players": "§aTeleportiere Spieler...",
+  "tip_preparing_minigame": "§aMinispiel wird vorbereitet...",
+  "tip_build_height_limit_reached": "§c§oDu hast die Bauhöhe erreicht",
 
   "no_proxy_login": "Du bist nicht in der Proxy eingeloggt.",
   "server_restarting": "§eServer wird neugestartet!",
@@ -202,6 +235,8 @@
 
   "title_cosmetics": "§lCosmetics",
 
+  "title_force_minigame": "§lMinispiele",
+
   "scoreboard_lobby_title": "§l§6Slime§aUnity",
 
   "item_lobbyswitcher": "§r§aLobby Switcher\n§o§8[§7Click§8]",
@@ -249,6 +284,9 @@
   "cosmetic_colored_flame_particle": "§aGefärbte Flamme",
 
   "minigame_traffic_light_race": "Ampelrennen",
+  "minigame_get_it": "Sammeln",
+  "minigame_color_dance": "Color Dance",
+  "minigame_speed_skywars": "Speed SkyWars",
 
   "traffic_light_race_phase_no_light": "§l§aGO!",
   "traffic_light_race_phase_green": "§l§0⬛\n§l§0⬛\n§l§a⬛",
