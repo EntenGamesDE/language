@@ -98,6 +98,9 @@
   "message_daily_reward_claimed": "{prefix} Du hast deine tägliche Belohnung eingesammelt. Streak: {streak}",
   "message_minigame_forced": "{prefix_slimeparty} Du hast {minigame} als nächstes Minispiel festgelegt.",
   "message_minigame_ends": "{prefix_slimeparty} Minispiel endet in {time} {seconds}.",
+  "message_player_placement_with_points": "Platz §6{placement} §r§8»§r {player} §8[§7{points} §7Punkte§8]",
+  "message_player_placement": "Platz §6{placement} §r§8»§r {player}",
+  "message_goal_reached": "{prefix_slimeparty} {player} hat das Ziel erreicht. §8[§r{time} {seconds}§8]",
 
   "death_message_cause_contact": "{prefix} {player} wurde zu Tode gepiekst.",
   "death_message_cause_contact_influenced_by_player": "{prefix} {player} wurde durch {killer} zu Tode gepiekst.",
@@ -132,6 +135,7 @@
   "tip_teleporting_players": "§aTeleportiere Spieler...",
   "tip_preparing_minigame": "§aMinispiel wird vorbereitet...",
   "tip_build_height_limit_reached": "§c§oDu hast die Bauhöhe erreicht",
+  "tip_server_restarting": "§aServer startet in §a{time} §a{seconds} §aneu...",
 
   "title_next_minigame": "Es wird gespielt...",
 
@@ -290,6 +294,9 @@
   "minigame_get_it": "Sammeln",
   "minigame_color_dance": "Color Dance",
   "minigame_speed_skywars": "Speed SkyWars",
+  "minigame_hot_floor": "Heißer Boden",
+  "minigame_jump_and_run": "Jump and Run",
+  "minigame_knock_it": "KnockIt",
 
   "traffic_light_race_phase_no_light": "§l§aGO!",
   "traffic_light_race_phase_green": "§l§0⬛\n§l§0⬛\n§l§a⬛",
