@@ -1,10 +1,10 @@
 {
   "name": "Deutsch",
-  "prefix": "§2§lSlime§aUnity §8» §r",
-  "prefix_friends": "§6§lFreunde §r§8» §r",
-  "prefix_clans": "§6§lClans §8» §r",
-  "prefix_reports": "§6§lReportSystem§r§8 » §r",
-  "prefix_slimeparty": "§6§lSlimeParty§r§8 » §r",
+  "prefix": "§2§lSlime§aUnity §8»§r",
+  "prefix_friends": "§6§lFreunde §r§8»§r",
+  "prefix_clans": "§6§lClans §8»§r",
+  "prefix_reports": "§6§lReportSystem§r§8 »§r",
+  "prefix_slimeparty": "§6§lSlimeParty§r§8 »§r",
   "default_chat_color": "§r",
 
   "message_no_lobby_found": "{prefix} Es konnte keine freie Lobby gefunden werden...",
@@ -97,6 +97,7 @@
   "message_daily_reward_already_claimed": "{prefix} Du hast bereits deine tägliche Belohnung eingesammelt.",
   "message_daily_reward_claimed": "{prefix} Du hast deine tägliche Belohnung eingesammelt. Streak: {streak}",
   "message_minigame_forced": "{prefix_slimeparty} Du hast {minigame} als nächstes Minispiel festgelegt.",
+  "message_minigame_ends": "{prefix_slimeparty} Minispiel endet in {time} {seconds}.",
 
   "death_message_cause_contact": "{prefix} {player} wurde zu Tode gepiekst.",
   "death_message_cause_contact_influenced_by_player": "{prefix} {player} wurde durch {killer} zu Tode gepiekst.",
@@ -131,6 +132,8 @@
   "tip_teleporting_players": "§aTeleportiere Spieler...",
   "tip_preparing_minigame": "§aMinispiel wird vorbereitet...",
   "tip_build_height_limit_reached": "§c§oDu hast die Bauhöhe erreicht",
+
+  "title_next_minigame": "Es wird gespielt...",
 
   "no_proxy_login": "Du bist nicht in der Proxy eingeloggt.",
   "server_restarting": "§eServer wird neugestartet!",
@@ -291,5 +294,18 @@
   "traffic_light_race_phase_no_light": "§l§aGO!",
   "traffic_light_race_phase_green": "§l§0⬛\n§l§0⬛\n§l§a⬛",
   "traffic_light_race_phase_yellow": "§l§0⬛\n§l§6⬛\n§l§0⬛\rVorsicht!",
-  "traffic_light_race_phase_red": "§l§c⬛\n§l§0⬛\n§l§0⬛\rStop!"
+  "traffic_light_race_phase_red": "§l§c⬛\n§l§0⬛\n§l§0⬛\rStop!",
+
+  "time_second": "Sekunde",
+  "time_seconds": "Sekunden",
+  "time_minute": "Minute",
+  "time_minutes": "Minuten",
+  "time_hour": "Stunde",
+  "time_hours": "Stunden",
+  "time_day": "Tag",
+  "time_days": "Tage",
+  "time_month": "Monat",
+  "time_months": "Monate",
+  "time_year": "Jahr",
+  "time_years": "Jahre"
 }
