@@ -101,6 +101,7 @@
   "message_player_placement_with_points": "Platz §6{placement} §r§8»§r {player} §8[§7{points} §7Punkte§8]",
   "message_player_placement": "Platz §6{placement} §r§8»§r {player}",
   "message_goal_reached": "{prefix_slimeparty} {player} hat das Ziel erreicht. §8[§r{time} {seconds}§8]",
+  "message_player_eliminated": "{prefix_slimeparty} {player} ist ausgeschieden.",
 
   "death_message_cause_contact": "{prefix} {player} wurde zu Tode gepiekst.",
   "death_message_cause_contact_influenced_by_player": "{prefix} {player} wurde durch {killer} zu Tode gepiekst.",
@@ -136,6 +137,10 @@
   "tip_preparing_minigame": "§aMinispiel wird vorbereitet...",
   "tip_build_height_limit_reached": "§c§oDu hast die Bauhöhe erreicht",
   "tip_server_restarting": "§aServer startet in §a{time} §a{seconds} §aneu...",
+
+  "tip_minigame_knock_it": "§aPlatzierung§7: §a{placement} §8|§a Kills§7: §a{kills}",
+  "tip_minigame_paintball": "§aPlatzierung§7: §a{placement} §8|§a Kills§7: §a{kills} §8|§a Munition§7: §a{bullets}",
+  "tip_minigame_gungame": "§aPlatzierung§7: §a{placement} §8|§a Kills§7: §a{kills} §8|§a Level§7: §a{level}§7/§a{max_level}",
 
   "title_next_minigame": "Es wird gespielt...",
 
@@ -228,6 +233,7 @@
   "button_clan": "§aClan",
 
   "title_teleporter": "§lTeleporter",
+  "button_gamemode": "{server}\n§8{players} §7spielen",
 
   "title_mute": "§lMute",
   "button_mute": "{reason}\n{days} Tage",
@@ -243,6 +249,10 @@
   "title_cosmetics": "§lCosmetics",
 
   "title_force_minigame": "§lMinispiele",
+
+  "title_userinfo": "§lUser Info",
+  "content_userinfo_offline": "§aName§7: §a{name}\n§aOnline Zeit§7: §a{onlineTime}\n§aGerät§7: §a{device_os}\n§aZuletzt Online§7: §a{lastPlayed}\n§aErstell Datum§7: §a{creationDate}\n§aRang§7: §a{rank}\n§aClan§7: §a{clan}\n§aStatus§7: §aOffline",
+  "content_userinfo_online": "§aName§7: §a{name}\n§aOnline Zeit§7: §a{onlineTime}\n§aGerät§7: §a{device_os}\n§aZuletzt Online§7: §a{lastPlayed}\n§aErstell Datum§7: §a{creationDate}\n§aRang§7: §a{rank}\n§aClan§7: §a{clan}\n§aStatus§7: §aOnline\n§aServer§7: §a{server}\n§aProxy§7: §a{proxy}",
 
   "scoreboard_lobby_title": "§l§6Slime§aUnity",
 
@@ -297,12 +307,18 @@
   "minigame_hot_floor": "Heißer Boden",
   "minigame_jump_and_run": "Jump and Run",
   "minigame_knock_it": "KnockIt",
+  "minigame_minefield": "Minenfeld",
+  "minigame_paintball": "Paintball",
+  "minigame_quick_survival_games": "Quick Survival Games",
+  "minigame_gungame": "GunGame",
+  "minigame_trip_to_jerusalem": "Reise nach Jerusalem",
 
   "traffic_light_race_phase_no_light": "§l§aGO!",
   "traffic_light_race_phase_green": "§l§0⬛\n§l§0⬛\n§l§a⬛",
   "traffic_light_race_phase_yellow": "§l§0⬛\n§l§6⬛\n§l§0⬛\rVorsicht!",
   "traffic_light_race_phase_red": "§l§c⬛\n§l§0⬛\n§l§0⬛\rStop!",
 
+  "time_permanent": "Permanent",
   "time_second": "Sekunde",
   "time_seconds": "Sekunden",
   "time_minute": "Minute",
