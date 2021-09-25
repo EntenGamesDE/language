@@ -33,8 +33,8 @@
   "message_killed_player": "{prefix} Du hast {player} getötet.",
   "message_unknown_server": "{prefix} Server konnte nicht gefunden werden.",
   "message_tpall": "{prefix} {player} hat alle Spieler zu sich teleportiert.",
-  "message_transfer_other": "Transferiere {player} auf Server {server}...",
-  "message_transfer": "Transferiere auf Server {server}...",
+  "message_transfer_other": "{prefix} Verschiebe {player} auf Server {server}...",
+  "message_transfer": "{prefix} Verschiebe auf Server {server}...",
   "message_settings_saved": "{prefix} Einstellungen wurden erfolgreich gespeichert.",
   "message_joinme": "§7----------------------------------------------\n{player} hat ein JoinMe auf {server} erstellt.\nNutze /joinme um nachzuspringen\n§7----------------------------------------------",
   "message_vanish_on": "{prefix} Du befindest dich jetzt im Vanish.",
@@ -105,6 +105,8 @@
   "message_cooldown": "{prefix} Bitte warte einen Moment...",
   "message_cosmetic_unlocked": "{prefix} Du hast das {cosmetic} Cosmetic erfolgreich freigeschalten.",
   "message_cosmetics_all_deactivated": "{prefix} Du hast alle deine Cosmetics deaktiviert.",
+  "message_player_joined": "{prefix} §6§l+ §r{player}",
+  "message_player_left": "{prefix} §c§l- §r{player}",
 
   "death_message_cause_contact": "{prefix} {player} wurde zu Tode gepiekst.",
   "death_message_cause_contact_influenced_by_player": "{prefix} {player} wurde durch {killer} zu Tode gepiekst.",
@@ -261,11 +263,22 @@
 
   "title_force_minigame": "§lMinispiele",
 
+  "title_game_placements": "§lPlatzierungen",
+
   "title_userinfo": "§lUser Info",
   "content_userinfo_offline": "§aName§7: §a{name}\n§aOnline Zeit§7: §a{onlineTime}\n§aGerät§7: §a{device_os}\n§aZuletzt Online§7: §a{lastPlayed}\n§aErstell Datum§7: §a{creationDate}\n§aRang§7: §a{rank}\n§aClan§7: §a{clan}\n§aStatus§7: §aOffline",
   "content_userinfo_online": "§aName§7: §a{name}\n§aOnline Zeit§7: §a{onlineTime}\n§aGerät§7: §a{device_os}\n§aZuletzt Online§7: §a{lastPlayed}\n§aErstell Datum§7: §a{creationDate}\n§aRang§7: §a{rank}\n§aClan§7: §a{clan}\n§aStatus§7: §aOnline\n§aServer§7: §a{server}\n§aProxy§7: §a{proxy}",
 
   "scoreboard_lobby_title": "§l§6Slime§aUnity",
+  "scoreboard_slimeparty_title": "§l§6SlimeParty",
+
+  "scoreboard_slimeparty_line_placement": "§aPlatzierung",
+  "scoreboard_slimeparty_line_field": "§aDein Feld",
+  "scoreboard_slimeparty_line_ranking": "§6Ranking",
+  "scoreboard_slimeparty_line_minigame": "§6Minigame",
+  "scoreboard_slimeparty_line_time": "§6Verbleibende Zeit",
+
+  "bossbar_slimeparty_title_field": "§l§6Feld §8»§r§7 {field}§8/§7{total_fields}",
 
   "item_lobbyswitcher": "§r§aLobby Switcher\n§o§8[§7Click§8]",
   "item_playerhider_all": "§r§aSpieler Anzeigen§7: §aAlle\n§o§8[§7Click§8]",
@@ -275,7 +288,10 @@
   "item_teleporter": "§r§aTeleporter\n§o§8[§7Click§8]",
   "item_cosmetics": "§r§aCosmetics\n§o§8[§7Click§8]",
 
-  "item_redeem_blocks": "§6Klicke zum einlösen",
+  "item_hub": "§r§aZurück zur Lobby\n§o§8[§7Click§8]",
+
+  "item_placements": "§r§aPlatzierungen\n§o§8[§7Click§8]",
+  "item_redeem_blocks": "§6Einlösen\n§o§8[§7Click§8]",
 
   "cosmetic_category_pets": "Haustiere",
   "cosmetic_category_boots": "Schuhe",
@@ -343,5 +359,8 @@
   "time_month": "Monat",
   "time_months": "Monate",
   "time_year": "Jahr",
-  "time_years": "Jahre"
+  "time_years": "Jahre",
+
+  "generic_level": "Level",
+  "generic_kills": "Kills"
 }
