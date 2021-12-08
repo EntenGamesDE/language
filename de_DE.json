@@ -136,6 +136,7 @@
   "message_island_loading": "{prefix_skyblock} Deine Insel wird geladen...",
   "message_sending_to_island": "{prefix_skyblock} Sende zu Insel...",
   "message_island_deleted": "{prefix_skyblock} Deine Insel wurde erfolgreich gelöscht.",
+  "message_island_icon_changed": "{prefix_skyblock} Du hast dein Insel Icon erfolgreich geändert.",
 
   "death_message_cause_contact": "{prefix} {player} wurde zu Tode gepiekst.",
   "death_message_cause_contact_influenced_by_player": "{prefix} {player} wurde durch {killer} zu Tode gepiekst.",
@@ -230,10 +231,13 @@
   "button_back_to_island": "§l§6» §r§8Zurück zur Insel",
   "button_helper": "§l§6» §r§8Helfer §8(§7{count}§8)",
   "button_extend_island": "§l§6» §r§8Insel erweitern",
+  "button_island_icon": "§l§6» §r§8Insel Icon",
+  "button_available_with": "§l§6» §r§8Verfügbar mit",
 
   "sub_button_activate": "§eAktivieren",
   "sub_button_deactivate": "§cDeaktivieren",
   "sub_button_buy": "§7Kaufen",
+  "sub_button_players_playing": "§7{amount} §7spielen...",
 
   "input_player": "§aSpieler",
   "input_playername": "§aSpielername",
@@ -317,6 +321,8 @@
   "title_userinfo": "§lUser Info",
   "title_cosmetics": "§lCosmetics",
   "title_skyblock": "§lSkyBlock",
+
+  "npc_visit_islands": "§l§aInsel besuchen",
 
   "scoreboard_lobby_title": "§l§6Slime§aUnity",
   "scoreboard_slimeparty_title": "§l§6SlimeParty",
