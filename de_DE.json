@@ -137,6 +137,7 @@
   "message_sending_to_island": "{prefix_skyblock} Sende zu Insel...",
   "message_island_deleted": "{prefix_skyblock} Deine Insel wurde erfolgreich gelöscht.",
   "message_island_icon_changed": "{prefix_skyblock} Du hast dein Insel Icon erfolgreich geändert.",
+  "message_quest_completed": "§7----- §6Quest Abgeschlossen §7-----\n§aBelohnungen§7: {rewards}\n§7-----------------------------",
 
   "death_message_cause_contact": "{prefix} {player} wurde zu Tode gepiekst.",
   "death_message_cause_contact_influenced_by_player": "{prefix} {player} wurde durch {killer} zu Tode gepiekst.",
@@ -165,7 +166,6 @@
   "death_message_cause_starvation": "{prefix} {player} verhungerte.",
   "death_message_cause_starvation_influenced_by_player": "{prefix} {player} verhungerte durch {killer}.",
   "death_message_default": "{prefix} {player} starb.",
-
 
   "tip_sending_to_hub": "§aSuche nach freier Lobby...",
   "tip_teleporting_players": "§aTeleportiere Spieler...",
@@ -321,8 +321,9 @@
   "title_userinfo": "§lUser Info",
   "title_cosmetics": "§lCosmetics",
   "title_skyblock": "§lSkyBlock",
+  "title_public_islands": "§lÖffentliche Inseln",
 
-  "npc_visit_islands": "§l§aInsel besuchen",
+  "npc_visit_islands": "§l§6§oMarkus\n§l§aInsel besuchen",
 
   "scoreboard_lobby_title": "§l§6Slime§aUnity",
   "scoreboard_slimeparty_title": "§l§6SlimeParty",
@@ -338,19 +339,19 @@
 
   "bossbar_slimeparty_title_field": "§l§6Feld §8»§r§7 {field}§8/§7{total_fields}",
 
-  "item_lobbyswitcher": "§r§aLobby Switcher\n§o§8[§7Click§8]",
-  "item_playerhider_all": "§r§aSpieler Anzeigen§7: §aAlle\n§o§8[§7Click§8]",
-  "item_playerhider_small": "§r§aSpieler Anzeigen§7: §6Klein\n§o§8[§7Click§8]",
-  "item_playerhider_nobody": "§r§aSpieler Anzeigen§7: §7Niemand\n§o§8[§7Click§8]",
-  "item_profile": "§r§aProfil\n§o§8[§7Click§8]",
-  "item_teleporter": "§r§aTeleporter\n§o§8[§7Click§8]",
-  "item_cosmetics": "§r§aCosmetics\n§o§8[§7Click§8]",
-  "item_settings": "§r§aEinstellungen\n§o§8[§7Click§8]",
-  "item_hub": "§r§aZurück zur Lobby\n§o§8[§7Click§8]",
-  "item_placements": "§r§aPlatzierungen\n§o§8[§7Click§8]",
-  "item_redeem_blocks": "§6Einlösen\n§o§8[§7Click§8]",
-  "item_reset": "§cZurücksetzen\n§o§8[§7Click§8]",
-  "item_stop": "§cStop\n§o§8[§7Click§8]",
+  "item_lobbyswitcher": "§r§aLobby Switcher\n§o§8[§7Klick§8]",
+  "item_playerhider_all": "§r§aSpieler Anzeigen§7: §aAlle\n§o§8[§7Klick§8]",
+  "item_playerhider_small": "§r§aSpieler Anzeigen§7: §6Klein\n§o§8[§7Klick§8]",
+  "item_playerhider_nobody": "§r§aSpieler Anzeigen§7: §7Niemand\n§o§8[§7Klick§8]",
+  "item_profile": "§r§aProfil\n§o§8[§7Klick§8]",
+  "item_teleporter": "§r§aTeleporter\n§o§8[§7Klick§8]",
+  "item_cosmetics": "§r§aCosmetics\n§o§8[§7Klick§8]",
+  "item_settings": "§r§aEinstellungen\n§o§8[§7Klick§8]",
+  "item_hub": "§r§aZurück zur Lobby\n§o§8[§7Klick§8]",
+  "item_placements": "§r§aPlatzierungen\n§o§8[§7Klick§8]",
+  "item_redeem_blocks": "§6Einlösen\n§o§8[§7Klick§8]",
+  "item_reset": "§cZurücksetzen\n§o§8[§7Klick§8]",
+  "item_stop": "§cStop\n§o§8[§7Klick§8]",
   "item_next_page": "§r§aNächste Seite §8[§7{next_page}§8/§7{total_pages}§8]",
 
   "cosmetic_category_pets": "Haustiere",
@@ -409,6 +410,7 @@
   "title_next_minigame": "Es wird gespielt...",
   "title_loading": "§7§oLädt...",
   "title_done": "§l§6Fertig!",
+  "title_quest_completed": "§l§6Quest\n§l§6abgeschlossen!",
 
   "time_permanent": "Permanent",
   "time_second": "Sekunde",
@@ -472,5 +474,14 @@
 
   "kick_screen_no_proxy_login": "Du bist nicht in der Proxy eingeloggt.",
   "kick_screen_server_restarting": "§eServer wird neugestartet!",
-  "kick_screen_banned_from_server": "§cDu bist gebannt!\n§cGrund§8:§c {reason}\n§cBis§8:§c {until}"
+  "kick_screen_banned_from_server": "§cDu bist gebannt!\n§cGrund§8:§c {reason}\n§cBis§8:§c {until}",
+
+  "quest_action_break_block": "§aZerstöre §7{amount} §6{block}§r§a Blöcke",
+  "quest_action_place_block": "§aPlatziere §7{amount} §6{block}§r§a Blöcke",
+  "quest_action_collect_item": "§aSammel §7{amount}§7x §6{item}",
+  "quest_action_move_distance": "§aLaufe §7{distance} §r§aMeter",
+
+  "quest_reward_money": "§l§6+§r§6{amount}§6$",
+  "quest_reward_level_progress": "§l§6+§r§6{amount}§a Progress",
+  "quest_reward_item": "§l§6+§r§6{amount}§7x §6{item}"
 }
