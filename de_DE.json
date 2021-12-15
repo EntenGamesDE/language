@@ -38,7 +38,7 @@
   "message_tpall": "{prefix} {player} hat alle Spieler zu sich teleportiert.",
   "message_transfer_other": "{prefix} Verschiebe {player} auf Server {server}...",
   "message_transfer": "{prefix} Verschiebe auf Server {server}...",
-  "message_settings_saved": "{prefix} Einstellungen wurden erfolgreich gespeichert.",
+  "message_settings_saved": "{prefix} Deine Einstellungen wurden erfolgreich gespeichert.",
   "message_joinme": "§7----------------------------------------------\n{player} hat ein JoinMe auf {server} erstellt.\nNutze /joinme um nachzuspringen\n§7----------------------------------------------",
   "message_vanish_on": "{prefix} Du befindest dich jetzt im Vanish.",
   "message_vanish_off": "{prefix} Du befindest dich nicht mehr im Vanish.",
@@ -238,6 +238,8 @@
   "button_available_with": "§l§6» §r§8Verfügbar ab",
   "button_no_data": "§l§c» §r§8Keine Daten gefunden!",
   "button_activate": "§l§6» §r§8Aktivieren",
+  "button_settings_generic": "§l§6» §r§8Allgemein",
+  "button_settings_lobby": "§l§6» §r§8Lobby",
 
   "sub_button_activate": "§eAktivieren",
   "sub_button_active": "§aAktiv",
@@ -292,6 +294,8 @@
   "toggle_private_messages": "§aPrivat Nachrichten",
   "toggle_autonick": "§aAuto Nick",
   "toggle_public": "§aÖffentlich",
+
+  "step_slider_daytime": "§aTageszeit",
 
   "content_accept_all_requests": "§aMöchtest du wirklich alle Anfragen annehmen?",
   "content_decline_all_requests": "§aMöchtest du wirklich alle Anfragen ablehnen?",
@@ -420,6 +424,7 @@
   "title_next_minigame": "Es wird gespielt...",
   "title_loading": "§7§oLädt...",
   "title_done": "§l§6Fertig!",
+  "title_error": "§l§cError!",
   "title_quest_completed": "§l§6Quest\n§l§6abgeschlossen!",
 
   "time_permanent": "Permanent",
