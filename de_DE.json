@@ -11,7 +11,7 @@
 
   "message_no_lobby_found": "{prefix} Es konnte keine freie Lobby gefunden werden...",
   "message_no_server_found": "{prefix} Es konnte kein freier Server gefunden werden...",
-  "message_finding_server": "{prefix} Suche nach freien Server...",
+  "message_finding_server": "{prefix} Suche nach freiem Server...",
   "message_unknown_command": "{prefix} §cUnbekannter Command.",
   "message_unknown_player": "{prefix} Spieler konnte nicht gefunden werden.",
   "message_player_is_offline": "{prefix} {player} ist nicht online.",
