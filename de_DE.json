@@ -9,6 +9,9 @@
   "prefix_skyblock": "§6§lSkyBlock§r§8 »§r",
   "default_chat_color": "§r",
 
+  "currency_network": "Slimes",
+  "currency_skyblock": "$",
+
   "message_no_lobby_found": "{prefix} Es konnte keine freie Lobby gefunden werden...",
   "message_no_server_found": "{prefix} Es konnte kein freier Server gefunden werden...",
   "message_finding_server": "{prefix} Suche nach freiem Server...",
