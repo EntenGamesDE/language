@@ -182,11 +182,12 @@
   "tip_server_restarting": "§aServer startet in §a{time} §a{seconds} §aneu...",
   "tip_waiting_for_players": "§aWarten auf {players} §aSpieler{points}",
   "tip_waiting_for_player": "§aWarten auf {players} §aSpieler{points}",
-  "tip_minigame_knock_it": "§aPlatzierung§7: §a{placement} §8|§a Kills§7: §a{kills}",
-  "tip_minigame_paintball": "§aPlatzierung§7: §a{placement} §8|§a Kills§7: §a{kills} §8|§a Munition§7: §a{bullets}",
-  "tip_minigame_gungame": "§aPlatzierung§7: §a{placement} §8|§a Kills§7: §a{kills} §8|§a Level§7: §a{level}§7/§a{max_level}",
   "tip_protection_time": "§aSchutzzeit§7: §a{time}",
   "tip_island_upgrade_required": "§cDu musst deine Insel erweitern um hier bauen zu können!",
+
+  "actionbar_message_minigame_knock_it": "Kills§7: §a{kills}",
+  "actionbar_message_minigame_paintball": "Kills§7: §a{kills}\nMunition§7: §a{bullets}",
+  "actionbar_message_minigame_gungame": "Kills§7: §a{kills}\nLevel§7: §a{level}§7/§a{max_level}",
 
   "button_back": "§l§6» §r§8Zurück",
   "button_remove": "§l§c» §r§8Entfernen",
