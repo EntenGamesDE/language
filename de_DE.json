@@ -146,6 +146,12 @@
   "message_island_creation_cooldown": "{prefix_skyblock} Du kannst nur alle {hours} Stunden eine neue Insel erstellen.",
   "message_no_player_account": "{prefix_skyblock} {player} hat noch keinen Account.",
   "message_already_on_island": "{prefix_skyblock} Du befindest dich bereits auf dieser Insel.",
+  "message_game_already_started": "{prefix_slimeparty} Das Spiel hat bereits begonnen.",
+  "message_countdown_already_started": "{prefix_slimeparty} Der Countdown wurde bereits gestartet.",
+  "message_game_ended": "{prefix_slimeparty} Das Spiel ist bereits zu Ende.",
+  "message_countdown_started": "{prefix_slimeparty} Du hast den Countdown gestartet.",
+  "message_countdown_starts_if_enough_players": "{prefix_slimeparty} Der Countdown started, sobald {players} Spieler in der Runde sind.",
+  "message_health_points_left": "{prefix_slimeparty} {player} hatte noch {health}HP.",
 
   "death_message_cause_contact": "{prefix} {player} wurde zu Tode gepiekst.",
   "death_message_cause_contact_influenced_by_player": "{prefix} {player} wurde durch {killer} zu Tode gepiekst.",
