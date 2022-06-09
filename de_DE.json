@@ -1,5 +1,4 @@
 {
-  "name": "Deutsch",
   "prefix": "§2§lSlime§aUnity §8»§r",
   "prefix_friends": "§6§lFreunde §r§8»§r",
   "prefix_party": "§6§lParty §r§8»§r",
@@ -9,6 +8,7 @@
   "prefix_slimewars": "§6§lSlimeWars§r§8 »§r",
   "prefix_citybuild": "§6§lCityBuild§r§8 »§r",
   "prefix_skyblock": "§6§lSkyBlock§r§8 »§r",
+  "prefix_mapdecorator": "§6§lMapDekorateur§r§8 »§r",
   "default_chat_color": "§r",
 
   "currency_network": "Slimes",
@@ -178,6 +178,12 @@
   "message_win_streak_reached": "{prefix} Du hast eine Siegesserie von {streak} erreicht.",
   "message_win_streak_reset": "{prefix} Deine Siegesserie wurde zurückgesetzt.",
   "message_no_rejoin_server": "{prefix} Du hast keinen Server zum wieder beitreten.",
+  "message_got_particle_manager_item": "{prefix_mapdecorator} Du hast einen PartikelManager erhalten. Rechtsklicke einen Block um Partikel zu erstellen/löschen oder Infos über Partikel einzusehen.",
+  "message_particle_created": "{prefix_mapdecorator} Du hast erfolgreich neue Partikel erstellt.",
+  "message_already_particle": "{prefix_mapdecorator} Es befinden sich bereits Partikel an dieser Position.",
+  "message_no_particle": "{prefix_mapdecorator} Es befinden sich keine Partikel an dieser Position.",
+  "message_particle_removed": "{prefix_mapdecorator} Du hast die Partikel erfolgreich entfernt.",
+
 
   "death_message_cause_contact": "{prefix} {player} wurde zu Tode gepiekst.",
   "death_message_cause_contact_influenced_by_player": "{prefix} {player} wurde durch {killer} zu Tode gepiekst.",
@@ -289,6 +295,10 @@
   "button_party_transfer": "§l§c» §r§8Zum Besitzer machen",
   "button_party_invites": "§l§6» §r§8Einladungen §7[§8{invites}§7]",
   "button_party_invite": "§l§6» §r§8{player}",
+  "button_particle": "Partikel",
+  "button_create_particle": "Partikel erstellen",
+  "button_remove_particle": "Partikel löschen",
+  "button_particle_info": "Partikel Info",
 
   "sub_button_activate": "§eAktivieren",
   "sub_button_active": "§aAktiv",
@@ -323,6 +333,8 @@
   "input_island_delete_confirm": "§cBitte gebe diesen Code zur Bestätigung ein\n§8» §7{code}",
   "input_account_delete_confirm": "§cBitte gebe diesen Code zur Bestätigung ein\n§8» §7{code}",
   "input_party_disband_confirm": "§cBitte gebe diesen Code zur Bestätigung ein\n§8» §7{code}",
+  "input_particle_id": "§aPartikel ID",
+  "input_particle_data": "§aPartikel Data",
 
   "dropdown_player": "§aSpieler",
   "dropdown_language": "§aSprache",
@@ -344,10 +356,12 @@
   "toggle_private_messages": "§aPrivat Nachrichten",
   "toggle_autonick": "§aAuto Nick",
   "toggle_public": "§aÖffentlich",
+  "toggle_particle_offset": "§aVersetzt",
 
   "step_slider_daytime": "§aTageszeit",
 
   "slider_player_amount": "§aSpieler",
+  "slider_particle_interval": "§aAbstand (Ticks)",
 
   "content_accept_all_requests": "§aMöchtest du wirklich alle Anfragen annehmen?",
   "content_decline_all_requests": "§aMöchtest du wirklich alle Anfragen ablehnen?",
@@ -390,6 +404,9 @@
   "title_skyblock": "§lSkyBlock",
   "title_public_islands": "§lÖffentliche Inseln",
   "title_party": "§lParty",
+  "title_map_decorator": "§lMap Dekorateur",
+  "title_particle_manager": "§lPartikel Manager",
+  "title_particle_info": "§lPartikel Info",
 
   "npc_visit_islands": "§l§6§oMarkus\n§l§aInsel besuchen",
 
@@ -421,6 +438,7 @@
   "item_reset": "§cZurücksetzen\n§o§8[§7Klick§8]",
   "item_stop": "§cStop\n§o§8[§7Klick§8]",
   "item_next_page": "§r§aNächste Seite §8[§7{next_page}§8/§7{total_pages}§8]",
+  "item_particle_manager": "§r§6Partikel Manager",
 
   "cosmetic_category_pets": "Haustiere",
   "cosmetic_category_boots": "Schuhe",
