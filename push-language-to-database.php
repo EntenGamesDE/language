@@ -1,5 +1,23 @@
 <?php
 
+$dir = new DirectoryIterator(__DIR__);
+foreach ($dir as $fileinfo) {
+    if ($fileinfo->isDot() || $fileinfo->getFilename() === "push-language-to-database.php") {
+        continue;
+    }
+    unlink($fileinfo->getRealPath());
+}
+
+exec('git clone https://github.com/EntenGamesDE/language.git language-repo');
+$dir = new DirectoryIterator(__DIR__ . DIRECTORY_SEPARATOR . "language-repo");
+foreach ($dir as $fileinfo) {
+    if ($fileinfo->isDot() || $fileinfo->getExtension() !== "json") {
+        continue;
+    }
+    rename($fileinfo->getRealPath(), dirname($fileinfo->getRealPath(), 2) . DIRECTORY_SEPARATOR . $fileinfo->getFilename());
+}
+exec("rm -r " . __DIR__ . DIRECTORY_SEPARATOR . "language-repo");
+
 $mysqliSettings = yaml_parse_file("/home/Datenbank/MySQL.yml");
 $mysqli = new mysqli(
     $mysqliSettings["address"],
@@ -27,6 +45,7 @@ foreach ($dir as $fileinfo) {
         $stmt->execute();
         $stmt->reset();
     }
+    unlink($fileinfo->getRealPath());
 }
 
 $mysqli->close();
