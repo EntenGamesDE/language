@@ -423,8 +423,8 @@
   "scoreboard_skyblock_line_your_level": "§aDein Level",
   "scoreboard_skyblock_line_your_clan": "§aDein Clan",
 
-  "bossbar_waiting_for_players": "§l§cWarte auf §6{players} §cSpieler{points}",
-  "bossbar_waiting_for_player": "§l§cWarte auf §6{players} §cSpieler{points}",
+  "bossbar_waiting_for_players": "§l§cWarte auf §6{players} §l§cSpieler{points}",
+  "bossbar_waiting_for_player": "§l§cWarte auf §6{players} §l§cSpieler{points}",
   "bossbar_slimeparty_title_field": "§l§6Feld §8»§r§7 {field}§8/§7{total_fields}",
 
   "item_lobbyswitcher": "§r§aLobby Switcher\n§o§8[§7Klick§8]",
