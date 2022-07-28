@@ -150,6 +150,7 @@
   "message_island_creation_cooldown": "{prefix_skyblock} Du kannst nur alle {hours} Stunden eine neue Insel erstellen.",
   "message_no_player_account": "{prefix_skyblock} {player} hat noch keinen Account.",
   "message_already_on_island": "{prefix_skyblock} Du befindest dich bereits auf dieser Insel.",
+  "message_character_chosen": "{prefix_slimeparty} Du hast erfolgreich {character} als Charakter gewählt.",
   "message_game_already_started": "{prefix_slimeparty} Das Spiel hat bereits begonnen.",
   "message_countdown_already_started": "{prefix_slimeparty} Der Countdown wurde bereits gestartet.",
   "message_game_ended": "{prefix_slimeparty} Das Spiel ist bereits zu Ende.",
@@ -299,6 +300,8 @@
   "button_create_particle": "Partikel erstellen",
   "button_remove_particle": "Partikel löschen",
   "button_particle_info": "Partikel Info",
+  "button_choose_category": "§r§7Öffne die Kategorie",
+  "button_choose": "§r§7Wähle den Charakter aus",
 
   "sub_button_activate": "§eAktivieren",
   "sub_button_active": "§aAktiv",
@@ -408,6 +411,7 @@
   "title_map_decorator": "§lMap Dekorateur",
   "title_particle_manager": "§lPartikel Manager",
   "title_particle_info": "§lPartikel Info",
+  "title_choose_character": "§lWähle einen Charakter aus",
 
   "npc_visit_islands": "§l§6§oMarkus\n§l§aInsel besuchen",
 
